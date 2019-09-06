@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        YelpClient.getRestaurants { result in
+            switch result {
+            case .success(let restaurants):
+                print(restaurants)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+        
     }
 
 

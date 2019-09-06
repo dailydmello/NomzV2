@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B8B06D1F20F63F6E14205C4 /* Pods_NomzV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305273E35077805BBD5B4FA0 /* Pods_NomzV2.framework */; };
+		C40F9375D565600631E2B83D /* Pods_NomzV2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33504522EB370D2AD6C9FDF1 /* Pods_NomzV2Tests.framework */; };
 		DD737E402321B5AC00EF800A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E3F2321B5AC00EF800A /* AppDelegate.swift */; };
 		DD737E422321B5AC00EF800A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E412321B5AC00EF800A /* ViewController.swift */; };
 		DD737E452321B5AC00EF800A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD737E432321B5AC00EF800A /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		DD737E4A2321B5AE00EF800A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD737E492321B5AE00EF800A /* Assets.xcassets */; };
 		DD737E4D2321B5AE00EF800A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD737E4B2321B5AE00EF800A /* LaunchScreen.storyboard */; };
 		DD737E582321B5AE00EF800A /* NomzV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E572321B5AE00EF800A /* NomzV2Tests.swift */; };
+		DD737E652321BCE700EF800A /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E642321BCE700EF800A /* YelpClient.swift */; };
+		DD737E672321C94B00EF800A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E662321C94B00EF800A /* Constants.swift */; };
+		DD737E692321E02800EF800A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E682321E02800EF800A /* Restaurant.swift */; };
+		DD737E6B2321E26100EF800A /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E6A2321E26100EF800A /* APIRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11461741FD0EA49E6EE2FBD7 /* Pods-NomzV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NomzV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NomzV2/Pods-NomzV2.debug.xcconfig"; sourceTree = "<group>"; };
+		26DFF8B61A4C26429E21955E /* Pods-NomzV2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NomzV2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NomzV2Tests/Pods-NomzV2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		305273E35077805BBD5B4FA0 /* Pods_NomzV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NomzV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33504522EB370D2AD6C9FDF1 /* Pods_NomzV2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NomzV2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6A651A0A57656F24FADBD5 /* Pods-NomzV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NomzV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-NomzV2/Pods-NomzV2.release.xcconfig"; sourceTree = "<group>"; };
 		DD737E3C2321B5AC00EF800A /* NomzV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomzV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD737E3F2321B5AC00EF800A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD737E412321B5AC00EF800A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +49,11 @@
 		DD737E532321B5AE00EF800A /* NomzV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NomzV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD737E572321B5AE00EF800A /* NomzV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomzV2Tests.swift; sourceTree = "<group>"; };
 		DD737E592321B5AE00EF800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD737E642321BCE700EF800A /* YelpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		DD737E662321C94B00EF800A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DD737E682321E02800EF800A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		DD737E6A2321E26100EF800A /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		EE0865BE115E043EE1D90FDF /* Pods-NomzV2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NomzV2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NomzV2Tests/Pods-NomzV2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8B06D1F20F63F6E14205C4 /* Pods_NomzV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40F9375D565600631E2B83D /* Pods_NomzV2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673870987EB403957CC2168D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305273E35077805BBD5B4FA0 /* Pods_NomzV2.framework */,
+				33504522EB370D2AD6C9FDF1 /* Pods_NomzV2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C844C31228E7187976632B0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11461741FD0EA49E6EE2FBD7 /* Pods-NomzV2.debug.xcconfig */,
+				4E6A651A0A57656F24FADBD5 /* Pods-NomzV2.release.xcconfig */,
+				EE0865BE115E043EE1D90FDF /* Pods-NomzV2Tests.debug.xcconfig */,
+				26DFF8B61A4C26429E21955E /* Pods-NomzV2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD737E332321B5AC00EF800A = {
 			isa = PBXGroup;
 			children = (
 				DD737E3E2321B5AC00EF800A /* NomzV2 */,
 				DD737E562321B5AE00EF800A /* NomzV2Tests */,
 				DD737E3D2321B5AC00EF800A /* Products */,
+				C844C31228E7187976632B0E /* Pods */,
+				673870987EB403957CC2168D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +126,10 @@
 				DD737E4B2321B5AE00EF800A /* LaunchScreen.storyboard */,
 				DD737E4E2321B5AE00EF800A /* Info.plist */,
 				DD737E462321B5AC00EF800A /* NomzV2.xcdatamodeld */,
+				DD737E682321E02800EF800A /* Restaurant.swift */,
+				DD737E662321C94B00EF800A /* Constants.swift */,
+				DD737E6A2321E26100EF800A /* APIRouter.swift */,
+				DD737E642321BCE700EF800A /* YelpClient.swift */,
 			);
 			path = NomzV2;
 			sourceTree = "<group>";
@@ -106,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD737E5C2321B5AE00EF800A /* Build configuration list for PBXNativeTarget "NomzV2" */;
 			buildPhases = (
+				E56EFEA6E4F56489D38420D3 /* [CP] Check Pods Manifest.lock */,
 				DD737E382321B5AC00EF800A /* Sources */,
 				DD737E392321B5AC00EF800A /* Frameworks */,
 				DD737E3A2321B5AC00EF800A /* Resources */,
+				998A49F10BBF826B257CBD95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD737E5F2321B5AE00EF800A /* Build configuration list for PBXNativeTarget "NomzV2Tests" */;
 			buildPhases = (
+				E8BEFFD7A86BE03C7B9D9D22 /* [CP] Check Pods Manifest.lock */,
 				DD737E4F2321B5AE00EF800A /* Sources */,
 				DD737E502321B5AE00EF800A /* Frameworks */,
 				DD737E512321B5AE00EF800A /* Resources */,
+				A73E9418454037CC0878B2C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,11 +243,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		998A49F10BBF826B257CBD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NomzV2/Pods-NomzV2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NomzV2/Pods-NomzV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73E9418454037CC0878B2C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NomzV2Tests/Pods-NomzV2Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NomzV2Tests/Pods-NomzV2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56EFEA6E4F56489D38420D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NomzV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BEFFD7A86BE03C7B9D9D22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NomzV2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD737E382321B5AC00EF800A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD737E6B2321E26100EF800A /* APIRouter.swift in Sources */,
+				DD737E672321C94B00EF800A /* Constants.swift in Sources */,
+				DD737E652321BCE700EF800A /* YelpClient.swift in Sources */,
+				DD737E692321E02800EF800A /* Restaurant.swift in Sources */,
 				DD737E482321B5AC00EF800A /* NomzV2.xcdatamodeld in Sources */,
 				DD737E422321B5AC00EF800A /* ViewController.swift in Sources */,
 				DD737E402321B5AC00EF800A /* AppDelegate.swift in Sources */,
@@ -362,6 +489,7 @@
 		};
 		DD737E5D2321B5AE00EF800A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11461741FD0EA49E6EE2FBD7 /* Pods-NomzV2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -380,6 +508,7 @@
 		};
 		DD737E5E2321B5AE00EF800A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6A651A0A57656F24FADBD5 /* Pods-NomzV2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +527,7 @@
 		};
 		DD737E602321B5AE00EF800A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0865BE115E043EE1D90FDF /* Pods-NomzV2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +549,7 @@
 		};
 		DD737E612321B5AE00EF800A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DFF8B61A4C26429E21955E /* Pods-NomzV2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
