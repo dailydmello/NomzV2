@@ -17,15 +17,15 @@ struct K {
     static let noCache = "No-Cache"
 }
 
-enum HTTPHeaderField: String {
-    case authorization = "Authorization"
-    case cacheControl = "Cache-Control"
-//    static let APIHost = "https://api.yelp.com"
-//    static let searchPath = "/v3/businesses/search?"
-//    static let authorization = "authorization"
-//    static let cacheControl = "Cache-Control"
-//    static let noCache = "no-cache"
-//    static let get = "GET"
-//    static let endPointLimit = "limit=50"
-//    static let endPointTerm = "term=food"
-}
+//enum HTTPHeaderField: String {
+//    case authorization = "Authorization"
+//    case cacheControl = "Cache-Control"
+////    static let APIHost = "https://api.yelp.com"
+////    static let searchPath = "/v3/businesses/search?"
+////    static let authorization = "authorization"
+////    static let cacheControl = "Cache-Control"
+////    static let noCache = "no-cache"
+////    static let get = "GET"
+////    static let endPointLimit = "limit=50"
+////    static let endPointTerm = "term=food"
+//}

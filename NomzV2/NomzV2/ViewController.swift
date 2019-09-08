@@ -13,15 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        YelpClient.getRestaurants { result in
-            switch result {
-            case .success(let restaurants):
-                print(restaurants)
-            case .failure(let error):
-                print(error.localizedDescription)
-            }
+        YelpClient.getBusinesses { (businesses) in
+            guard let businesses = businesses else { return }
+            print(businesses)
         }
-        
     }
 
 

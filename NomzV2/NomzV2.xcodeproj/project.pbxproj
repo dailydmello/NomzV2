@@ -18,8 +18,7 @@
 		DD737E582321B5AE00EF800A /* NomzV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E572321B5AE00EF800A /* NomzV2Tests.swift */; };
 		DD737E652321BCE700EF800A /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E642321BCE700EF800A /* YelpClient.swift */; };
 		DD737E672321C94B00EF800A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E662321C94B00EF800A /* Constants.swift */; };
-		DD737E692321E02800EF800A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E682321E02800EF800A /* Restaurant.swift */; };
-		DD737E6B2321E26100EF800A /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E6A2321E26100EF800A /* APIRouter.swift */; };
+		DD737E692321E02800EF800A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD737E682321E02800EF800A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,7 @@
 		DD737E592321B5AE00EF800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD737E642321BCE700EF800A /* YelpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		DD737E662321C94B00EF800A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DD737E682321E02800EF800A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		DD737E6A2321E26100EF800A /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		DD737E682321E02800EF800A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EE0865BE115E043EE1D90FDF /* Pods-NomzV2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NomzV2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NomzV2Tests/Pods-NomzV2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,9 +124,8 @@
 				DD737E4B2321B5AE00EF800A /* LaunchScreen.storyboard */,
 				DD737E4E2321B5AE00EF800A /* Info.plist */,
 				DD737E462321B5AC00EF800A /* NomzV2.xcdatamodeld */,
-				DD737E682321E02800EF800A /* Restaurant.swift */,
+				DD737E682321E02800EF800A /* Model.swift */,
 				DD737E662321C94B00EF800A /* Constants.swift */,
-				DD737E6A2321E26100EF800A /* APIRouter.swift */,
 				DD737E642321BCE700EF800A /* YelpClient.swift */,
 			);
 			path = NomzV2;
@@ -323,10 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD737E6B2321E26100EF800A /* APIRouter.swift in Sources */,
 				DD737E672321C94B00EF800A /* Constants.swift in Sources */,
 				DD737E652321BCE700EF800A /* YelpClient.swift in Sources */,
-				DD737E692321E02800EF800A /* Restaurant.swift in Sources */,
+				DD737E692321E02800EF800A /* Model.swift in Sources */,
 				DD737E482321B5AC00EF800A /* NomzV2.xcdatamodeld in Sources */,
 				DD737E422321B5AC00EF800A /* ViewController.swift in Sources */,
 				DD737E402321B5AC00EF800A /* AppDelegate.swift in Sources */,
